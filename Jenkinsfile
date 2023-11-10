@@ -8,7 +8,7 @@ pipeline{
         
         imageName = "vatcalc"
         registry = "${dockerUserName}/${imageName}"
-        registryCredentials = "docker_hub_id"
+        registryCredentials = "dockerhub_id"
         clusterName = "lbg-gke"
         location = "europe-west1"
     }
